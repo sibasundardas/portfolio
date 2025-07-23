@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+  <title>Siba Sundar Das | Machine Learning Developer</title>
+
+  <!-- Tailwind CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <!-- Poppins Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <!-- AOS Animations -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- FontAwesome (replace YOUR-KIT) -->
+  <script src="https://kit.fontawesome.com/YOUR-KIT.js" crossorigin="anonymous"></script>
+  <style>
+    body { font-family: 'Poppins', sans-serif; }
+    .dark-mode { background: #1a202c; color: #cbd5e0; }
+    .dark-mode a { color: #63b3ed; }
+  </style>
+</head>
+<body class="bg-gradient-to-br from-indigo-50 via-purple-50 to-pink-50 text-gray-800">
+
+  <!-- NAVBAR -->
+  <header class="fixed w-full z-30 bg-white bg-opacity-50 backdrop-filter backdrop-blur-lg">
+    <div class="container mx-auto flex justify-between items-center py-4 px-6">
+      <a href="index.html"><h1 class="text-2xl font-semibold">Siba Sundar Das</h1></a>
+      <nav class="space-x-6">
+        <a href="#home"      class="hover:text-indigo-600">Home</a>
+        <a href="#about"     class="hover:text-indigo-600">About</a>
+        <a href="#experience"class="hover:text-indigo-600">Experience</a>
+        <a href="#projects"  class="hover:text-indigo-600">Projects</a>
+        <a href="#skills"    class="hover:text-indigo-600">Skills</a>
+        <a href="#certifications" class="hover:text-indigo-600">Certifications</a>
+        <a href="#contact"   class="hover:text-indigo-600">Contact</a>
+        <button id="themeToggle" class="focus:outline-none"><i class="fas fa-moon"></i></button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+<section id="home" class="h-screen flex items-center justify-center text-center px-6" data-aos="fade-up">
+  <div>
+    <img src="assets/siba.jpg" alt="Siba" class="w-40 h-40 rounded-full mx-auto mb-4 shadow-lg">
+    <h2 class="text-5xl md:text-6xl font-extrabold mb-4">Hi, I’m Siba</h2>
+    <p class="text-xl mb-6 max-w-xl mx-auto">I’m a passionate Machine Learning and Web Developer, skilled in building intelligent systems and modern, responsive websites. I love turning ideas into real-world solutions using AI and full-stack technologies.
+</p>
+    <div class="inline-flex space-x-4">
+      <a href="#projects" class="inline-block bg-indigo-600 text-white px-6 py-3 rounded-full shadow-lg hover:shadow-xl transition">
+        View My Work
+      </a>
+      <a href="https://drive.google.com/file/d/1IZi4t7sc2pUxvaqMKHFv3eW2M-JhlMmk/view?usp=sharing"
+         target="_blank"
+         class="inline-block bg-gray-200 text-gray-800 px-6 py-3 rounded-full shadow-lg hover:shadow-xl transition">
+        View Resume
+      </a>
+    </div>
+  </div>
+</section>
+
+
+  <!-- ABOUT -->
+<section id="about" class="py-20 bg-white" data-aos="fade-up">
+  <div class="container mx-auto px-6 lg:flex lg:items-center lg:space-x-12">
+    
+    <!-- Animated Image -->
+    <div class="lg:w-1/2 mb-6 lg:mb-0 flex justify-center" data-aos="zoom-in" data-aos-delay="200">
+      <img
+        src="assets/siba.jpg"
+        alt="Siba Sundar Das"
+        class="w-56 h-56 rounded-full shadow-lg transform hover:scale-105 transition-transform duration-500"
+      />
+    </div>
+
+    <!-- Expanded Bio -->
+    <div class="lg:w-1/2" data-aos="fade-left" data-aos-delay="400">
+      <h2 class="text-3xl font-bold mb-4">About Me</h2>
+      <p class="mb-4">
+        I’m Siba Sundar Das, a final‑year B.Tech CSE student at NIST University (CGPA 8.74) with an insatiable curiosity for AI/ML and real‑world computer vision. Selected as a Salesforce Launchpad Trainee by PwC, I’ve built a strong foundation in IT fundamentals, RDBMS, programming patterns, and enterprise cloud workflows.
+      </p>
+      <p class="mb-4">
+        Over the past two years, I’ve engineered real‑time emotion and face recognition models using CNNs & OpenCV, deployed full‑stack React + Node.js applications, and led workshops on machine learning for peers. I’m passionate about crafting elegant algorithms, scalable architectures, and intuitive user experiences.
+      </p>
+      <p>
+        Beyond code, I’m an open‑source contributor, competitive programmer, and mentor—always seeking to learn, share, and push the boundaries of what AI can do. Let’s build something amazing together!
+      </p>
+    </div>
+  </div>
+</section>
+>
+
+
+
+  <!-- EXPERIENCE & EDUCATION -->
+  <section id="experience" class="py-20 bg-gradient-to-br from-indigo-50 to-pink-50">
+    <div class="container mx-auto px-6">
+      <h2 class="text-3xl font-bold text-center mb-12" data-aos="fade-up">Experience & Education</h2>
+      <div class="space-y-8">
+        <!-- NIST University -->
+        <div class="flex items-center space-x-6" data-aos="fade-right">
+          <img src="assets/nist.png" alt="NIST University" class="w-20 h-20 rounded-lg shadow" />
+          <div>
+            <p class="font-semibold">B.Tech, Computer Science and Enginnering (CGPA 8.74)</p>
+            <p class="text-sm text-gray-600">NIST University — 2022–2026</p>
+            <p class="text-gray-700 mt-1">Key courses: Data Structures, Algorithms, Machine Learning, Computer Vision, Databases</p>
+          </div>
+        </div>
+        <hr class="border-gray-300" />
+
+        <!-- CTTC Internship -->
+        <div class="flex items-center space-x-6" data-aos="fade-left">
+          <img src="assets/cttc.png" alt="CTTC" class="w-20 h-20 rounded-lg shadow" />
+          <div>
+            <p class="font-semibold">AI/ML Intern</p>
+            <p class="text-sm text-gray-600">Central Tool Room & Training Centre - 2025</p>
+            <p class="text-gray-700 mt-1">Built an AI system for defect detection in manufacturing pipelines using TensorFlow & OpenCV.</p>
+          </div>
+        </div>
+        <hr class="border-gray-300" />
+
+        <!-- PwC Launchpad -->
+        <div class="flex items-center space-x-6" data-aos="fade-right">
+          <img src="assets/pwc.png" alt="PwC" class="w-20 h-20 rounded-lg shadow" />
+          <div>
+            <p class="font-semibold">Salesforce Launchpad Trainee</p>
+            <p class="text-sm text-gray-600">PwC — 2025</p>
+            <p class="text-gray-700 mt-1">Earned badges: IT Fundamentals, RDBMS, Programming Fundamentals, Salesforce Concepts.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="py-20 bg-white">
+    <div class="container mx-auto px-6">
+      <h2 class="text-3xl font-bold text-center mb-12" data-aos="zoom-in">Projects</h2>
+      <div class="grid md:grid-cols-2 gap-8">
+        <!-- Facial Emotion Recognition -->
+        <div class="bg-gradient-to-br from-indigo-200 to-purple-200 rounded-lg shadow-lg overflow-hidden transition-transform hover:-translate-y-2" data-aos="fade-up">
+          <div class="p-6">
+            <h3 class="text-2xl font-semibold mb-3">Facial Emotion Recognition</h3>
+            <p class="mb-4">Real‑time CNN + OpenCV on 35K images with augmentation & tuning.</p>
+            <div class="flex space-x-4">
+              <a href="https://github.com/sibasundardas/Face_Emotion_recognize" target="_blank" class="bg-indigo-600 text-white px-4 py-2 rounded">View Code</a>
+              <a href="project-emotion.html" class="bg-white border border-indigo-600 text-indigo-600 px-4 py-2 rounded">About Project</a>
+            </div>
+          </div>
+        </div>
+        <!-- Face Recognition System -->
+        <div class="bg-gradient-to-br from-indigo-200 to-purple-200 rounded-lg shadow-lg overflow-hidden transition-transform hover:-translate-y-2" data-aos="fade-up" data-aos-delay="100">
+          <div class="p-6">
+            <h3 class="text-2xl font-semibold mb-3">Face Recognition System</h3>
+            <p class="mb-4">650‑image CNN + OpenCV system for accurate face ID in real time.</p>
+            <div class="flex space-x-4">
+              <a href="https://github.com/sibasundardas/Face_Recognize" target="_blank" class="bg-indigo-600 text-white px-4 py-2 rounded">View Code</a>
+              <a href="project-face.html" class="bg-white border border-indigo-600 text-indigo-600 px-4 py-2 rounded">About Project</a>
+            </div>
+          </div>
+        </div>
+        <!-- Simon Game -->
+        <div class="bg-gradient-to-br from-indigo-200 to-purple-200 rounded-lg shadow-lg overflow-hidden transition-transform hover:-translate-y-2" data-aos="fade-up" data-aos-delay="200">
+          <div class="p-6">
+            <h3 class="text-2xl font-semibold mb-3">Simon Game</h3>
+            <p class="mb-4">Classic JS memory game with responsive UI and animated feedback.</p>
+            <div class="flex space-x-4">
+              <a href="https://github.com/sibasundardas/Simon-Game" target="_blank" class="bg-indigo-600 text-white px-4 py-2 rounded">View Code</a>
+              <a href="project-simon.html" class="bg-white border border-indigo-600 text-indigo-600 px-4 py-2 rounded hover:bg-indigo-50">About Project</a>
+            </div>
+          </div>
+        </div>
+        <!-- This Portfolio -->
+        <div class="bg-gradient-to-br from-indigo-200 to-purple-200 rounded-lg shadow-lg overflow-hidden transition-transform hover:-translate-y-2" data-aos="fade-up" data-aos-delay="300">
+          <div class="p-6">
+            <h3 class="text-2xl font-semibold mb-3">Portfolio</h3>
+            <p class="mb-4">A full‑stack Node.js/Express/MongoDB site with Tailwind, AOS, and smooth UX.</p>
+            <div class="flex space-x-4">
+              <a href="https://github.com/sibasundardas" target="_blank" class="bg-indigo-600 text-white px-4 py-2 rounded">View Code</a>
+              <a href="project-portfolio.html" class="bg-white border border-indigo-600 text-indigo-600 px-4 py-2 rounded">About Project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+<section id="skills" class="py-20 bg-gradient-to-br from-indigo-50 to-pink-50">
+  <div class="container mx-auto px-6">
+    <h2 class="text-3xl font-bold text-center mb-12" data-aos="fade-up">Skills</h2>
+    <div class="grid md:grid-cols-2 gap-8">
+      
+      <!-- Programming Languages -->
+      <div class="bg-white p-6 rounded-lg shadow-lg" data-aos="fade-up" data-aos-delay="100">
+        <h3 class="text-xl font-semibold mb-4">Programming Languages</h3>
+        <div class="flex flex-wrap gap-2">
+          <span class="bg-indigo-100 text-indigo-800 px-3 py-1 rounded-full shadow-sm hover:bg-indigo-200 transition">C</span>
+          <span class="bg-indigo-100 text-indigo-800 px-3 py-1 rounded-full shadow-sm hover:bg-indigo-200 transition">Java</span>
+          <span class="bg-indigo-100 text-indigo-800 px-3 py-1 rounded-full shadow-sm hover:bg-indigo-200 transition">Python</span>
+          <span class="bg-indigo-100 text-indigo-800 px-3 py-1 rounded-full shadow-sm hover:bg-indigo-200 transition">Machine Learning</span>
+          <span class="bg-indigo-100 text-indigo-800 px-3 py-1 rounded-full shadow-sm hover:bg-indigo-200 transition">Computer Vision</span>
+        </div>
+      </div>
+      
+      <!-- Frontend Technologies -->
+      <div class="bg-white p-6 rounded-lg shadow-lg" data-aos="fade-up" data-aos-delay="200">
+        <h3 class="text-xl font-semibold mb-4">Frontend Technologies</h3>
+        <div class="flex flex-wrap gap-2">
+          <span class="bg-indigo-100 text-indigo-800 px-3 py-1 rounded-full shadow-sm hover:bg-indigo-200 transition">HTML</span>
+          <span class="bg-indigo-100 text-indigo-800 px-3 py-1 rounded-full shadow-sm hover:bg-indigo-200 transition">CSS</span>
+          <span class="bg-indigo-100 text-indigo-800 px-3 py-1 rounded-full shadow-sm hover:bg-indigo-200 transition">JavaScript</span>
+          <span class="bg-indigo-100 text-indigo-800 px-3 py-1 rounded-full shadow-sm hover:bg-indigo-200 transition">Tailwind CSS</span>
+        </div>
+      </div>
+      
+      <!-- Developer Tools -->
+      <div class="bg-white p-6 rounded-lg shadow-lg" data-aos="fade-up" data-aos-delay="300">
+        <h3 class="text-xl font-semibold mb-4">Developer Tools</h3>
+        <div class="flex flex-wrap gap-2">
+          <span class="bg-indigo-100 text-indigo-800 px-3 py-1 rounded-full shadow-sm hover:bg-indigo-200 transition">VS Code</span>
+          <span class="bg-indigo-100 text-indigo-800 px-3 py-1 rounded-full shadow-sm hover:bg-indigo-200 transition">Google Colab</span>
+        </div>
+      </div>
+      
+      <!-- Databases -->
+      <div class="bg-white p-6 rounded-lg shadow-lg" data-aos="fade-up" data-aos-delay="400">
+        <h3 class="text-xl font-semibold mb-4">Databases</h3>
+        <div class="flex flex-wrap gap-2">
+          <span class="bg-indigo-100 text-indigo-800 px-3 py-1 rounded-full shadow-sm hover:bg-indigo-200 transition">DBMS</span>
+          <span class="bg-indigo-100 text-indigo-800 px-3 py-1 rounded-full shadow-sm hover:bg-indigo-200 transition">SQL</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+  <!-- CERTIFICATIONS -->
+<section id="certifications" class="py-20 bg-white">
+  <div class="container mx-auto px-6">
+    <h2 class="text-3xl font-bold text-center mb-12" data-aos="fade-up">Certifications</h2>
+    <div class="grid md:grid-cols-2 gap-8">
+      
+      <!-- Each card -->
+      <div class="bg-indigo-50 p-6 rounded-lg shadow hover:shadow-lg transition" data-aos="fade-up" data-aos-delay="100">
+        <h3 class="text-xl font-semibold mb-2">IT Fundamentals</h3>
+        <p class="mb-4 text-sm text-gray-700">PwC Launchpad Program</p>
+        <a href="https://pwc.tekstac.com/blocks/tekbadges/badge.php?id=26375" target="_blank" class="text-indigo-600 hover:underline">View Certificate</a>
+      </div>
+
+      <div class="bg-indigo-50 p-6 rounded-lg shadow hover:shadow-lg transition" data-aos="fade-up" data-aos-delay="150">
+        <h3 class="text-xl font-semibold mb-2">RDBMS</h3>
+        <p class="mb-4 text-sm text-gray-700">PwC Launchpad Program</p>
+        <a href="https://pwc.tekstac.com/blocks/tekbadges/badge.php?id=28518" target="_blank" class="text-indigo-600 hover:underline">View Certificate</a>
+      </div>
+
+      <div class="bg-indigo-50 p-6 rounded-lg shadow hover:shadow-lg transition" data-aos="fade-up" data-aos-delay="200">
+        <h3 class="text-xl font-semibold mb-2">Programming Fundamentals</h3>
+        <p class="mb-4 text-sm text-gray-700">PwC Launchpad Program</p>
+        <a href="https://pwc.tekstac.com/blocks/tekbadges/badge.php?id=32198" target="_blank" class="text-indigo-600 hover:underline">View Certificate</a>
+      </div>
+
+      <div class="bg-indigo-50 p-6 rounded-lg shadow hover:shadow-lg transition" data-aos="fade-up" data-aos-delay="250">
+        <h3 class="text-xl font-semibold mb-2">Introduction to Salesforce</h3>
+        <p class="mb-4 text-sm text-gray-700">PwC Launchpad Program</p>
+        <a href="https://pwc.tekstac.com/blocks/tekbadges/badge.php?id=36556&text=pN5Gx&text=dq8Nj" target="_blank" class="text-indigo-600 hover:underline">View Certificate</a>
+      </div>
+
+      <div class="bg-indigo-50 p-6 rounded-lg shadow hover:shadow-lg transition" data-aos="fade-up" data-aos-delay="300">
+        <h3 class="text-xl font-semibold mb-2">Computer Vision Using ML</h3>
+        <p class="mb-4 text-sm text-gray-700">NIST University (4‑Week Summer Course)</p>
+        <a href="https://drive.google.com/file/d/1IMSFgN8hfpzk-qoCW5ZRjMBfQATyMkaJ/view" target="_blank" class="text-indigo-600 hover:underline">View Certificate</a>
+      </div>
+
+      <div class="bg-indigo-50 p-6 rounded-lg shadow hover:shadow-lg transition" data-aos="fade-up" data-aos-delay="350">
+        <h3 class="text-xl font-semibold mb-2">Artificial Intelligence and ML</h3>
+        <p class="mb-4 text-sm text-gray-700">CTTC Bhubaneswar</p>
+        <a href="https://drive.google.com/file/d/1acM54cFME5ppQH6PafEf7mizNnA36JPO/view" target="_blank" class="text-indigo-600 hover:underline">View Certificate</a>
+      </div>
+
+      <div class="bg-indigo-50 p-6 rounded-lg shadow hover:shadow-lg transition" data-aos="fade-up" data-aos-delay="400">
+        <h3 class="text-xl font-semibold mb-2">C Programming</h3>
+        <p class="mb-4 text-sm text-gray-700">Center for Advanced Computing</p>
+        <a href="https://drive.google.com/file/d/10w2nTnLcyP2NLS4ycujEnXHKSkllGNjF/view" target="_blank" class="text-indigo-600 hover:underline">View Certificate</a>
+      </div>
+
+      <div class="bg-indigo-50 p-6 rounded-lg shadow hover:shadow-lg transition" data-aos="fade-up" data-aos-delay="450">
+        <h3 class="text-xl font-semibold mb-2">Java Programming</h3>
+        <p class="mb-4 text-sm text-gray-700">Great Learning Academy</p>
+        <a href="https://drive.google.com/file/d/1TJzKLAq3mSZ1ahF3z5Fo1luadD1L4Rjd/view" target="_blank" class="text-indigo-600 hover:underline">View Certificate</a>
+      </div>
+
+      <div class="bg-indigo-50 p-6 rounded-lg shadow hover:shadow-lg transition" data-aos="fade-up" data-aos-delay="500">
+        <h3 class="text-xl font-semibold mb-2">HTML</h3>
+        <p class="mb-4 text-sm text-gray-700">Udemy</p>
+        <a href="https://www.udemy.com/certificate/UC-f9125e7a-0c10-406b-94fe-10c6b45c5d03/" target="_blank" class="text-indigo-600 hover:underline">View Certificate</a>
+      </div>
+
+      <div class="bg-indigo-50 p-6 rounded-lg shadow hover:shadow-lg transition" data-aos="fade-up" data-aos-delay="550">
+        <h3 class="text-xl font-semibold mb-2">CSS & JavaScript</h3>
+        <p class="mb-4 text-sm text-gray-700">Udemy</p>
+        <a href="https://www.udemy.com/certificate/UC-519a1137-0ced-4ef8-a6d6-e15c34dc2f5d/" target="_blank" class="text-indigo-600 hover:underline">View Certificate</a>
+      </div>
+
+      <div class="bg-indigo-50 p-6 rounded-lg shadow hover:shadow-lg transition" data-aos="fade-up" data-aos-delay="600">
+        <h3 class="text-xl font-semibold mb-2">Python Essentials</h3>
+        <p class="mb-4 text-sm text-gray-700">Cisco Networking Academy + OpenEDG</p>
+        <a href="https://drive.google.com/file/d/1wSpGA_5lD4syuwgySwMeGP8x4StdyTZR/view" target="_blank" class="text-indigo-600 hover:underline">View Certificate</a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+  <!-- FOOTER -->
+  <footer id="contact" class="py-8 bg-gray-900 text-white">
+  <div class="container mx-auto px-6 space-y-2 text-center">
+    <p class="font-semibold text-lg">Siba Sundar Das</p>
+    <p>
+      Email: 
+      <a href="mailto:sibasundardas2004@gmail.com" class="text-indigo-400 hover:underline">
+        sibasundardas2004@gmail.com
+      </a>
+    </p>
+    <p>
+      Phone: 
+      <a href="tel:+917653906945" class="text-indigo-400 hover:underline">
+        +91-7653906945
+      </a>
+    </p>
+    <p>
+      GitHub: 
+      <a href="https://github.com/sibasundardas" target="_blank" class="text-indigo-400 hover:underline">
+        https://github.com/sibasundardas
+      </a>
+    </p>
+    <p>
+      LinkedIn: 
+      <a href="https://linkedin.com/in/siba-sundar-das" target="_blank" class="text-indigo-400 hover:underline">
+        https://linkedin.com/in/siba-sundar-das
+      </a>
+    </p>
+    <p class="text-sm pt-4">&copy; 2025 Siba Sundar Das. All rights reserved.</p>
+  </div>
+</footer>
+
+
+
+  <!-- AOS & Scripts -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+
+    AOS.init({
+      duration: 800,
+      once: false,
+      mirror: true
+    });
+    // Replay animations on nav clicks
+    document.querySelectorAll('nav a[href^="#"]').forEach(link => {
+      link.addEventListener('click', () => setTimeout(() => AOS.refresh(), 50));
+    });
+
+    // Dark mode toggle
+    const btn = document.getElementById('themeToggle');
+    btn.addEventListener('click', () => {
+      document.documentElement.classList.toggle('dark-mode');
+      btn.innerHTML = document.documentElement.classList.contains('dark-mode')
+        ? '<i class="fas fa-sun"></i>' : '<i class="fas fa-moon"></i>';
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" /><meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+  <title>Face Recognition System | Siba Sundar Das</title>
+  <!-- Tailwind CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <!-- Poppins Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <!-- AOS Animations -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- FontAwesome (replace YOUR-KIT) -->
+  <script src="https://kit.fontawesome.com/YOUR-KIT.js" crossorigin="anonymous"></script>
+</head>
+<body class="bg-gray-50 text-gray-800 font-poppins">
+
+  <!-- NAVBAR -->
+  <header class="fixed top-0 w-full bg-white shadow-sm z-50">
+    <div class="container mx-auto flex justify-between items-center py-4 px-6">
+      <a href="index.html#projects" class="text-lg font-semibold hover:text-indigo-600">← Back to Projects</a>
+      <button id="themeToggle" class="focus:outline-none"><i class="fas fa-moon"></i></button>
+    </div>
+  </header>
+
+  <main class="pt-24 pb-16 container mx-auto px-6 space-y-12">
+
+    <!-- Title & View Code Button -->
+    <section data-aos="fade-up" class="text-center">
+      <h1 class="text-4xl font-bold mb-4">Face Recognition System</h1>
+      <a href="https://github.com/sibasundardas" target="_blank"
+         class="inline-block bg-indigo-600 text-white px-6 py-3 rounded-full hover:bg-indigo-700 transition-shadow shadow-md">
+        View Code
+      </a>
+      <p class="mt-4 text-gray-600">A real-time system to detect and recognize human faces from webcam feed.</p>
+    </section>
+
+    <!-- Project Overview -->
+    <section data-aos="fade-up" data-aos-delay="100">
+      <div class="bg-white p-6 rounded-lg shadow-md">
+        <h2 class="text-2xl font-semibold mb-4">🔥 Project Overview</h2>
+        <p>In this project, I developed a system that detects and recognizes human faces in real time. Using OpenCV for face detection and a CNN-based model trained on labeled facial datasets, the system compares input faces with stored identities and displays the matched person's name instantly.</p>
+      </div>
+    </section>
+
+    <!-- Technologies & Libraries -->
+    <section data-aos="fade-up" data-aos-delay="200">
+      <div class="bg-white p-6 rounded-lg shadow-md">
+        <h2 class="text-2xl font-semibold mb-4">🛠️ Technologies & Libraries Used</h2>
+        <ul class="list-disc list-inside space-y-2">
+          <li><strong>Python</strong> – Core development language</li>
+          <li><strong>OpenCV</strong> – Face detection & video streaming</li>
+          <li><strong>TensorFlow/Keras</strong> – Deep learning model creation</li>
+          <li><strong>NumPy & Pandas</strong> – Data manipulation and analysis</li>
+          <li><strong>Haar Cascades</strong> – Real-time face detection</li>
+          <li><strong>Matplotlib & Seaborn</strong> – Model performance visualization</li>
+          <li><strong>Custom Dataset</strong> – Organized facial images for multiple users</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Intuition & Approach -->
+    <section data-aos="fade-up" data-aos-delay="300">
+      <div class="bg-white p-6 rounded-lg shadow-md">
+        <h2 class="text-2xl font-semibold mb-4">💡 Intuition & Approach</h2>
+        <ol class="list-decimal list-inside space-y-3">
+          <li>
+            <strong>Dataset Preparation</strong><br>
+            Collected and preprocessed facial images of multiple individuals. Converted them to grayscale and resized for model input.
+          </li>
+          <li>
+            <strong>Model Training</strong><br>
+            Built a CNN classifier that learns facial features to distinguish between multiple individuals with high accuracy. Achieved 95% accuracy during model evaluation.
+          </li>
+          <li>
+            <strong>Face Detection & Recognition</strong><br>
+            Integrated Haar Cascade Classifier for face detection and used the trained model for real-time recognition using webcam feed.
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- Key Takeaways -->
+    <section data-aos="fade-up" data-aos-delay="400">
+      <div class="bg-white p-6 rounded-lg shadow-md">
+        <h2 class="text-2xl font-semibold mb-4">📌 Key Takeaways & Learning Outcomes</h2>
+        <ul class="list-disc list-inside space-y-2">
+          <li>✅ Built a real-time face recognition system.</li>
+          <li>✅ Mastered CNNs for identity classification.</li>
+          <li>✅ Gained deep hands-on experience in Computer Vision.</li>
+          <li>✅ Achieved 95% model accuracy.</li>
+          <li>✅ Visualized predictions and confusion matrix for better evaluation.</li>
+        </ul>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="py-8 bg-gray-900 text-white text-center">
+    <div class="container mx-auto px-6 space-y-4">
+      <p class="font-semibold">Siba Sundar Das</p>
+      <p>Email: <a href="mailto:sibasundardas2004@gmail.com" class="text-indigo-400 hover:underline">sibasundardas2004@gmail.com</a></p>
+      <p>Phone: <a href="tel:+917653906945" class="text-indigo-400 hover:underline">+91-7653906945</a></p>
+      <p>GitHub: <a href="https://github.com/sibasundardas" target="_blank" class="text-indigo-400 hover:underline">github.com/sibasundardas</a></p>
+      <p>LinkedIn: <a href="https://linkedin.com/in/siba-sundar-das" target="_blank" class="text-indigo-400 hover:underline">linkedin.com/in/siba-sundar-das</a></p>
+      <p class="text-sm">&copy; 2025 Siba Sundar Das. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({ duration: 700, once: true });
+    document.getElementById('themeToggle').addEventListener('click', () => {
+      document.documentElement.classList.toggle('dark-mode');
+      document.getElementById('themeToggle').innerHTML = document.documentElement.classList.contains('dark-mode')
+        ? '<i class="fas fa-sun"></i>' : '<i class="fas fa-moon"></i>';
+    });
+  </script>
+</body>
+</html>

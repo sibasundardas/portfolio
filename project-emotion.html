@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" /><meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+  <title>Facial Emotion Recognition | Siba Sundar Das</title>
+  <!-- Tailwind CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <!-- Poppins Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <!-- AOS Animations -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- FontAwesome (replace YOUR-KIT) -->
+  <script src="https://kit.fontawesome.com/YOUR-KIT.js" crossorigin="anonymous"></script>
+</head>
+<body class="bg-gray-50 text-gray-800 font-poppins">
+
+  <!-- NAVBAR -->
+  <header class="fixed top-0 w-full bg-white shadow-sm z-50">
+    <div class="container mx-auto flex justify-between items-center py-4 px-6">
+      <a href="index.html#projects" class="text-lg font-semibold hover:text-indigo-600">← Back to Projects</a>
+      <button id="themeToggle" class="focus:outline-none"><i class="fas fa-moon"></i></button>
+    </div>
+  </header>
+
+  <main class="pt-24 pb-16 container mx-auto px-6 space-y-12">
+
+    <!-- Title & View Code Button -->
+    <section data-aos="fade-up" class="text-center">
+      <h1 class="text-4xl font-bold mb-4">Facial Emotion Recognition & Detection</h1>
+      <a href="https://github.com/sibasundardas/Face_Emotion_recognize" target="_blank"
+         class="inline-block bg-indigo-600 text-white px-6 py-3 rounded-full hover:bg-indigo-700 transition-shadow shadow-md">
+        View Code
+      </a>
+      <p class="mt-4 text-gray-600">A real-time CNN + OpenCV system to classify seven human emotions from webcam or images.</p>
+    </section>
+
+    <!-- Project Overview -->
+    <section data-aos="fade-up" data-aos-delay="100">
+      <div class="bg-white p-6 rounded-lg shadow-md">
+        <h2 class="text-2xl font-semibold mb-4">🔥 Project Overview</h2>
+        <p>In this project, I built a CNN-based model that accurately classifies facial emotions from live webcam feed or images. Using OpenCV for face detection and a custom-trained CNN on the FER2013 dataset, the system identifies seven key emotions: <strong>Angry, Disgust, Fear, Happy, Neutral, Sad,</strong> and <strong>Surprise</strong>.</p>
+      </div>
+    </section>
+
+    <!-- Technologies & Libraries -->
+    <section data-aos="fade-up" data-aos-delay="200">
+      <div class="bg-white p-6 rounded-lg shadow-md">
+        <h2 class="text-2xl font-semibold mb-4">🛠️ Technologies & Libraries Used</h2>
+        <ul class="list-disc list-inside space-y-2">
+          <li><strong>Python</strong> – Core programming language</li>
+          <li><strong>OpenCV</strong> – Real-time video stream & face detection</li>
+          <li><strong>TensorFlow/Keras</strong> – Deep learning model development</li>
+          <li><strong>NumPy & Pandas</strong> – Data handling and analysis</li>
+          <li><strong>Matplotlib & Seaborn</strong> – Model visualization and accuracy plots</li>
+          <li><strong>FER2013 Dataset</strong> – Facial expression data (35K+ images)</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Intuition & Approach -->
+    <section data-aos="fade-up" data-aos-delay="300">
+      <div class="bg-white p-6 rounded-lg shadow-md">
+        <h2 class="text-2xl font-semibold mb-4">💡 Intuition & Approach</h2>
+        <ol class="list-decimal list-inside space-y-3">
+          <li>
+            <strong>Data Preprocessing 🧹</strong><br>
+            Preprocessed 35,887 grayscale images (48×48) categorized into 7 emotions from FER2013. Applied normalization and reshaping for CNN compatibility.
+          </li>
+          <li>
+            <strong>Model Architecture 🧠</strong><br>
+            Built a Convolutional Neural Network (CNN) with multiple Conv, MaxPooling, and Dense layers to extract and classify facial features.
+          </li>
+          <li>
+            <strong>Face Detection & Real‑Time Prediction 🎥</strong><br>
+            Used OpenCV’s Haar Cascade Classifier to detect faces in live webcam feed and overlay predicted emotions in real-time.
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- Key Takeaways -->
+    <section data-aos="fade-up" data-aos-delay="400">
+      <div class="bg-white p-6 rounded-lg shadow-md">
+        <h2 class="text-2xl font-semibold mb-4">📌 Key Takeaways & Learning Outcomes</h2>
+        <ul class="list-disc list-inside space-y-2">
+          <li>✅ Real-Time Emotion Recognition – Built a live system to detect and classify human emotions.</li>
+          <li>✅ CNN Mastery – Gained in-depth knowledge of CNNs and model tuning.</li>
+          <li>✅ Computer Vision Integration – Integrated OpenCV and deep learning seamlessly.</li>
+          <li>✅ Model Evaluation – Achieved over 74% accuracy on test data with effective visualization and confusion matrix analysis.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Future Enhancements -->
+    <section data-aos="fade-up" data-aos-delay="500">
+      <div class="bg-white p-6 rounded-lg shadow-md">
+        <h2 class="text-2xl font-semibold mb-4">🚀 Future Enhancements</h2>
+        <ul class="list-disc list-inside space-y-2">
+          <li>🔹 Improve accuracy using transfer learning (e.g., MobileNet, ResNet).</li>
+          <li>🔹 Support multiple faces simultaneously.</li>
+          <li>🔹 Deploy as a web/mobile app with Flask or React.</li>
+          <li>🔹 Integrate emotion-based recommendation systems (music, content, etc.).</li>
+        </ul>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="py-8 bg-gray-900 text-white">
+  <div class="container mx-auto px-6 space-y-2 text-center">
+    <p class="font-semibold text-lg">Siba Sundar Das</p>
+    <p>
+      Email: 
+      <a href="mailto:sibasundardas2004@gmail.com" class="text-indigo-400 hover:underline">
+        sibasundardas2004@gmail.com
+      </a>
+    </p>
+    <p>
+      Phone: 
+      <a href="tel:+917653906945" class="text-indigo-400 hover:underline">
+        +91-7653906945
+      </a>
+    </p>
+    <p>
+      GitHub: 
+      <a href="https://github.com/sibasundardas" target="_blank" class="text-indigo-400 hover:underline">
+        https://github.com/sibasundardas
+      </a>
+    </p>
+    <p>
+      LinkedIn: 
+      <a href="https://linkedin.com/in/siba-sundar-das" target="_blank" class="text-indigo-400 hover:underline">
+        https://linkedin.com/in/siba-sundar-das
+      </a>
+    </p>
+    <p class="text-sm pt-4">&copy; 2025 Siba Sundar Das. All rights reserved.</p>
+  </div>
+</footer>
+
+  <!-- Scripts -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({ duration: 700, once: true });
+    document.getElementById('themeToggle').addEventListener('click', () => {
+      document.documentElement.classList.toggle('dark-mode');
+      document.getElementById('themeToggle').innerHTML = document.documentElement.classList.contains('dark-mode')
+        ? '<i class="fas fa-sun"></i>' : '<i class="fas fa-moon"></i>';
+    });
+  </script>
+</body>
+</html>

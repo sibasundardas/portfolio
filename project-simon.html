@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+  <title>Simon Game | Siba Sundar Das</title>
+  <!-- Tailwind CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <!-- Poppins Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <!-- AOS Animations -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- FontAwesome (replace YOUR-KIT) -->
+  <script src="https://kit.fontawesome.com/YOUR-KIT.js" crossorigin="anonymous"></script>
+</head>
+<body class="bg-gray-50 text-gray-800 font-poppins">
+
+  <!-- NAVBAR -->
+  <header class="fixed top-0 w-full bg-white shadow-sm z-50">
+    <div class="container mx-auto flex justify-between items-center py-4 px-6">
+      <a href="index.html#projects" class="text-lg font-semibold hover:text-indigo-600">← Back to Projects</a>
+      <button id="themeToggle" class="focus:outline-none"><i class="fas fa-moon"></i></button>
+    </div>
+  </header>
+
+  <main class="pt-24 pb-16 container mx-auto px-6 space-y-12">
+
+    <!-- Title & View Code Button -->
+    <section data-aos="fade-up" class="text-center">
+      <h1 class="text-4xl font-bold mb-4">Simon Game</h1>
+      <a href="https://github.com/sibasundardas" target="_blank"
+         class="inline-block bg-indigo-600 text-white px-6 py-3 rounded-full hover:bg-indigo-700 transition-shadow shadow-md">
+        View Code
+      </a>
+      <p class="mt-4 text-gray-600">A memory game where players repeat increasing color sequences to test focus and recall.</p>
+    </section>
+
+    <!-- Project Overview -->
+    <section data-aos="fade-up" data-aos-delay="100">
+      <div class="bg-white p-6 rounded-lg shadow-md">
+        <h2 class="text-2xl font-semibold mb-4">🎯 Project Overview</h2>
+        <p>Simon Game is designed to enhance focus and memory by presenting a pattern of colors that the player must repeat. Each successful attempt adds a new color to the sequence, pushing the player to improve with every round!</p>
+      </div>
+    </section>
+
+    <!-- Technologies & Tools -->
+    <section data-aos="fade-up" data-aos-delay="200">
+      <div class="bg-white p-6 rounded-lg shadow-md">
+        <h2 class="text-2xl font-semibold mb-4">🛠️ Technologies & Tools Used</h2>
+        <ul class="list-disc list-inside space-y-2">
+          <li><strong>HTML5</strong> – For structuring the layout</li>
+          <li><strong>CSS3</strong> – For styling, transitions, and responsive visuals</li>
+          <li><strong>JavaScript</strong> – Core game logic and interactivity</li>
+          <li><strong>DOM Manipulation</strong> – To handle dynamic updates and user input</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Features & Functionality -->
+    <section data-aos="fade-up" data-aos-delay="300">
+      <div class="bg-white p-6 rounded-lg shadow-md">
+        <h2 class="text-2xl font-semibold mb-4">💡 Features & Functionality</h2>
+        <ol class="list-decimal list-inside space-y-3">
+          <li><strong>Random sequence generation</strong> for each level</li>
+          <li><strong>Visual cues</strong> for game interaction</li>
+          <li><strong>Game over detection</strong> with restart mechanism</li>
+          <li><strong>Interactive, clean UI</strong> suitable for all skill levels</li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- Key Takeaways -->
+    <section data-aos="fade-up" data-aos-delay="400">
+      <div class="bg-white p-6 rounded-lg shadow-md">
+        <h2 class="text-2xl font-semibold mb-4">📌 Key Learning Outcomes</h2>
+        <ul class="list-disc list-inside space-y-2">
+          <li>✅ Strengthened core JavaScript concepts (functions, arrays, loops, conditionals)</li>
+          <li>✅ Improved DOM manipulation skills for real-time UI updates</li>
+          <li>✅ Built an interactive game without using external libraries</li>
+          <li>✅ Practiced responsive design and smooth user experiences</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Future Enhancements -->
+    <section data-aos="fade-up" data-aos-delay="500">
+      <div class="bg-white p-6 rounded-lg shadow-md">
+        <h2 class="text-2xl font-semibold mb-4">🚀 Future Enhancements</h2>
+        <ul class="list-disc list-inside space-y-2">
+          <li>🔹 Add sound effects for richer feedback</li>
+          <li>🔹 Make it fully responsive on mobile devices</li>
+          <li>🔹 Include high score tracking using localStorage</li>
+          <li>🔹 Deploy online with improved animations and polish</li>
+        </ul>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="py-8 bg-gray-900 text-white text-center">
+    <div class="container mx-auto px-6 space-y-4">
+      <p class="font-semibold">Siba Sundar Das</p>
+      <p>Email: <a href="mailto:sibasundardas2004@gmail.com" class="text-indigo-400 hover:underline">sibasundardas2004@gmail.com</a></p>
+      <p>Phone: <a href="tel:+917653906945" class="text-indigo-400 hover:underline">+91-7653906945</a></p>
+      <p>GitHub: <a href="https://github.com/sibasundardas" target="_blank" class="text-indigo-400 hover:underline">github.com/sibasundardas</a></p>
+      <p>LinkedIn: <a href="https://linkedin.com/in/siba-sundar-das" target="_blank" class="text-indigo-400 hover:underline">linkedin.com/in/siba-sundar-das</a></p>
+      <p class="text-sm">&copy; 2025 Siba Sundar Das. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({ duration: 700, once: true });
+    document.getElementById('themeToggle').addEventListener('click', () => {
+      document.documentElement.classList.toggle('dark-mode');
+      document.getElementById('themeToggle').innerHTML = document.documentElement.classList.contains('dark-mode')
+        ? '<i class="fas fa-sun"></i>' : '<i class="fas fa-moon"></i>';
+    });
+  </script>
+</body>
+</html>
